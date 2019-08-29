@@ -1,7 +1,4 @@
-getter.py 启动爬虫爬取代理IP  存入redis
 
-
-tester.py 检验IP是否可用， 可用将分数修改成100，不可用 分数-1    当分数为0时 删除
 
 修改db.py 第34-38行     查看zadd源码，mapping 可传字典
 修改db.py 第62-65行   zincrby源码，   源码参数（KEY， 数值（加减值）， 哪条数据）  注意顺序
